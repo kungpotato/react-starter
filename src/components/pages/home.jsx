@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import style from './style.less'
-import style2 from './style.css'
+import './style.less'
+// import './style.css'
 import { Container, Box  } from 'bloomer'
 import Img from '../../assets/Imgsrc.js'
 
