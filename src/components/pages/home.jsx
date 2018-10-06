@@ -3,6 +3,7 @@ import './style.less'
 // import './style.css'
 import { Container, Box  } from 'bloomer'
 import Img from '../../assets/Imgsrc.js'
+import { Button } from 'reactstrap';
 
 class Home extends Component {
 	render(){
@@ -23,6 +24,7 @@ class Home extends Component {
 		    		<Box>
 		    			<img src={Img.noey1} className="wd" />
 		    		</Box>
+		    		<Button color="danger">Danger!</Button>
 				</Container>
 			  </div>
 		    </div>
